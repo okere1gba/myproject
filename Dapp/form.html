@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Form page</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="signin.css" rel="stylesheet">
+    <link href="newstyles.css" rel="stylesheet">
+    <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    
+
+
+</head>
+
+<body class="text-center">
+
+    <main class="form-signin">
+        <div class="container">
+            <h1 class="h3 mb-3 fw-normal">Please fill in the following information of Birth</h1>
+        </div>
+        <hr>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Patiants Identity number</label>
+            <input type="text" class="form-control" id="user-p-id" placeholder="Patiants Identity number">
+        </div>
+
+        <div class=" mb-3">
+            <label class="form label" for="email">Name </label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+        </div>
+        <div class=" mb-3">
+            <label class="form label" for="username">Father Name</label>
+            <input type="text" class="form-control" id="father-name" placeholder="Father Name">
+        </div>
+        <div class=" mb-3">
+            <label class="form label" for="email">Mother name</label>
+            <input type="text" class="form-control" id="mother-name" placeholder="Mother nameDate">
+        </div>
+        <div class=" mb-3">
+            <label class="form label" for="username">Date of Registertion</label>
+            <input type="text" class="form-control" id="d-reg" placeholder="Date of Registertion">
+        </div>
+        <div class=" mb-3">
+            <label class="form label" for="email"> Hospital Registered</label>
+            <input type="text" class="form-control" id="h-reg" placeholder="Hospital Registered">
+        </div>
+        <div class="mb-3">
+            <label class="form label" for="username">Place of birth</label>
+            <input type="text" class="form-control" id="p-birth" placeholder="Place of birth">
+        </div>
+        <div class="mb-3">
+            <label class="form label" for="email">Local Goverment Area</label>
+            <input type="text" class="form-control" id="lga" placeholder="Local Goverment Area">
+        </div>
+        <button id="btn-store" class="w-100 btn btn-lg btn-primary" type="submit">Store
+            Details</button>
+        <p id='getting'> </p>
+
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
