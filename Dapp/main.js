@@ -177,7 +177,7 @@ const ABI = [
     },
   ],
 ];
-/*const readOptions = {
+const readOptions = {
   contractAddress: "0x9e0706203cc764a335ed6cdd1af01c2f6010f1ac",
   functionName: "mymassage",
   abi: ABI,
@@ -188,8 +188,8 @@ async function call() {
   const message = await Moralis.executeFunction(readOptions);
   console.log(mymassage);
   alart("messaged displayed");
-}*/
-var Web3 = require("web3");
+}
+/*var Web3 = require("web3");
 var web3 = new Web3(Web3.currentProvider);
 async function call() {
   console.log("contract loading.....");
@@ -201,4 +201,4 @@ async function call() {
       document.getElementById("getting").innerHTML(mymassage);
     });
   alert("this is the message");
-}
+}*/
